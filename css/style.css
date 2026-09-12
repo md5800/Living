@@ -193,7 +193,7 @@ a {
     position: sticky;
     top: 0;
     background: #fff;
-    z-index: 9999;
+    z-index: 99;
 }
 .category_nav_inner {
     display: flex;
@@ -2818,6 +2818,7 @@ width: 100%;height: 100%;object-fit: cover;
         flex-direction: column;
         align-items: center;
         gap: 1.4rem;
+        padding: 0 2rem;
     }
     
     .collection_sec .tab_box {
@@ -3096,4 +3097,13 @@ width: 100%;height: 100%;object-fit: cover;
     .collection_cat {
         font-size: 1.2rem;
     }
+}
+@media screen and (max-width:390px) {
+        .banner_overlay h1 {
+        font-size: 2.4rem;
+    }
+    .banner_caption p {
+        font-size: 1.8rem;
+    }
+    .sale_sec .outline_btn{        padding: 1.4rem 1.8rem;        font-size: 1.3rem;}
 }
