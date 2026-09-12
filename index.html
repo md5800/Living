@@ -1,0 +1,1810 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Living</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <!-- og details -->
+        <meta property="og:title" content="Living">
+        <meta property="og:description" content="Comfort Meets Style in Every Corner of Your Home">
+        <meta property="og:image" content="images/og-img.jpg">
+        <meta property="og:url" content="">
+        <meta property="og:type" content="website">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <!-- Slick CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+        <!-- CSS Files-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Topbar Section -->
+         <section class="topbar">
+            <div class="topbar_inner">
+                <div class="location_wrap">
+                    <p class="location_txt"><img src="images/location_icon.svg" alt="location"><span>Location</span></p>
+                </div>
+                <div class="logo">
+                    <picture>
+                        <!-- WebP version -->
+                        <source srcset="
+                            images/logo.webp 1x,
+                            images/logo@2x.webp 2x,
+                            images/logo@3x.webp 3x
+                            " type="image/webp">
+                        <!-- PNG fallback -->
+                        <img src="images/logo.png" srcset="
+                            images/logo@2x.png 2x,
+                            images/logo@3x.png 3x
+                            " class="img-fluid" alt="logo">
+                    </picture>
+                </div>
+                <div class="right_panel">
+                    <div class="icon_box">
+                        <div class="icon" id="searchIconBtn">
+                            <img src="images/search_icon.svg" alt="search">
+                        </div>
+                        <div class="icon">
+                             <img src="images/favorite_icon.svg" alt="wishlist">
+                        </div>
+                        <div class="icon">
+                             <img src="images/cart_icon.svg" alt="Cart">
+                        </div>
+                    </div>
+                    <div class="top_btn">
+                        <a href="javascript:void(0);" class="signup" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
+                        <a href="javascript:void(0);" class="login" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+        <!-- Category Navigation / Mega Menu -->
+        <nav class="category_nav" id="topHeader">
+            <div class="category_nav_inner">
+                <button type="button" class="hamburger_btn" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="cmenu">
+                    <li class="cmenu_item">
+                        <a href="javascript:void(0);" class="cmenu_link">Living Room <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mega_menu">
+                            <div class="mega_menu_inner">
+                                <div class="mega_cols">
+                                    <div class="mega_col">
+                                        <h4>Living Storage</h4>
+                                        <ul>
+                                            <li><a href="#">TV Units</a></li>
+                                            <li><a href="#">Bookshelves</a></li>
+                                            <li><a href="#">Display Unit</a></li>
+                                            <li><a href="#">Magazine Racks</a></li>
+                                            <li><a href="#">Shoe Racks</a></li>
+                                            <li><a href="#">Wall Shelves</a></li>
+                                            <li><a href="#">Trunk & Blanket Box</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Sofas</h4>
+                                        <ul>
+                                            <li><a href="#" class="highlight">Fabric Sofas</a></li>
+                                            <li><a href="#">Wooden Sofa</a></li>
+                                            <li><a href="#">3 Seater Sofas</a></li>
+                                            <li><a href="#">2 Seater Sofas</a></li>
+                                            <li><a href="#">L Shaped Sofas</a></li>
+                                            <li><a href="#">Leather Sofa</a></li>
+                                            <li><a href="#">Sofa Cum Bed</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Seating & Chairs</h4>
+                                        <ul>
+                                            <li><a href="#">Lounge Chairs</a></li>
+                                            <li><a href="#">Wing Chairs</a></li>
+                                            <li><a href="#">Swing Chairs</a></li>
+                                            <li><a href="#">Sofas</a></li>
+                                            <li><a href="#">Shoe Chair</a></li>
+                                            <li><a href="#">Gaming Chair</a></li>
+                                            <li><a href="#">Office Seating</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Tables</h4>
+                                        <ul>
+                                            <li><a href="#">Coffee Tables</a></li>
+                                            <li><a href="#">Laptop Tables</a></li>
+                                            <li><a href="#">Side Tables</a></li>
+                                            <li><a href="#">Console Table</a></li>
+                                            <li><a href="#">Laptop Table</a></li>
+                                            <li><a href="#">Nest of Tables</a></li>
+                                            <li><a href="#">Laptop Table</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Decor</h4>
+                                        <ul>
+                                            <li><a href="#">Home Temples</a></li>
+                                            <li><a href="#">Wall Art</a></li>
+                                            <li><a href="#">Wall Mirrors</a></li>
+                                            <li><a href="#">Wall Clocks</a></li>
+                                            <li><a href="#">Photo Frames</a></li>
+                                            <li><a href="#">Pots & Planters</a></li>
+                                            <li><a href="#">Trunk & Blanket Box</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mega_promo">
+                                    <picture>
+                                        <source srcset="images/menuimg.webp 1x, images/menuimg@2x.webp 2x, images/menuimg@3x.webp 3x" type="image/webp">
+                                        <img src="images/menuimg.jpg" srcset="images/menuimg@2x.jpg 2x, images/menuimg@3x.jpg 3x" alt="Living Room Collections">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cmenu_item">
+                        <a href="javascript:void(0);" class="cmenu_link">Dinning Room <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mega_menu">
+                            <div class="mega_menu_inner">
+                                <div class="mega_cols">
+                                    <div class="mega_col">
+                                        <h4>Dining Sets</h4>
+                                        <ul>
+                                            <li><a href="#">4 Seater Sets</a></li>
+                                            <li><a href="#">6 Seater Sets</a></li>
+                                            <li><a href="#">8 Seater Sets</a></li>
+                                            <li><a href="#">Marble Sets</a></li>
+                                            <li><a href="#">Glass Sets</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Dining Tables</h4>
+                                        <ul>
+                                            <li><a href="#">4 Seater Tables</a></li>
+                                            <li><a href="#">6 Seater Tables</a></li>
+                                            <li><a href="#">8 Seater Tables</a></li>
+                                            <li><a href="#">Foldable Tables</a></li>
+                                            <li><a href="#">Console Tables</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Dining Chairs</h4>
+                                        <ul>
+                                            <li><a href="#">Upholstered Chairs</a></li>
+                                            <li><a href="#">Wooden Chairs</a></li>
+                                            <li><a href="#">Cushioned Chairs</a></li>
+                                            <li><a href="#">Bar Stools</a></li>
+                                            <li><a href="#">Bench</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Storage</h4>
+                                        <ul>
+                                            <li><a href="#">Crockery Units</a></li>
+                                            <li><a href="#">Bar Cabinets</a></li>
+                                            <li><a href="#">Sideboards</a></li>
+                                            <li><a href="#">Kitchen Racks</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Decor</h4>
+                                        <ul>
+                                            <li><a href="#">Wall Art</a></li>
+                                            <li><a href="#">Table Runners</a></li>
+                                            <li><a href="#">Centerpieces</a></li>
+                                            <li><a href="#">Lighting</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mega_promo">
+                                    <picture>
+                                        <source srcset="images/menuimg.webp 1x, images/menuimg@2x.webp 2x, images/menuimg@3x.webp 3x" type="image/webp">
+                                        <img src="images/menuimg.jpg" srcset="images/menuimg@2x.jpg 2x, images/menuimg@3x.jpg 3x" alt="Dinning Room Collections">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cmenu_item">
+                        <a href="javascript:void(0);" class="cmenu_link">Bedroom <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mega_menu">
+                            <div class="mega_menu_inner">
+                                <div class="mega_cols">
+                                    <div class="mega_col">
+                                        <h4>Beds</h4>
+                                        <ul>
+                                            <li><a href="#">King Size Beds</a></li>
+                                            <li><a href="#">Queen Size Beds</a></li>
+                                            <li><a href="#">Bunk Beds</a></li>
+                                            <li><a href="#">Sofa Cum Beds</a></li>
+                                            <li><a href="#">Storage Beds</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Wardrobes</h4>
+                                        <ul>
+                                            <li><a href="#">2 Door Wardrobes</a></li>
+                                            <li><a href="#">3 Door Wardrobes</a></li>
+                                            <li><a href="#">Sliding Wardrobes</a></li>
+                                            <li><a href="#">Walk-in Wardrobes</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Mattresses</h4>
+                                        <ul>
+                                            <li><a href="#">Memory Foam</a></li>
+                                            <li><a href="#">Spring Mattress</a></li>
+                                            <li><a href="#">Orthopedic</a></li>
+                                            <li><a href="#">Kids Mattress</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Bedside & More</h4>
+                                        <ul>
+                                            <li><a href="#">Bedside Tables</a></li>
+                                            <li><a href="#">Dressing Tables</a></li>
+                                            <li><a href="#">Chest of Drawers</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Decor</h4>
+                                        <ul>
+                                            <li><a href="#">Wall Art</a></li>
+                                            <li><a href="#">Mirrors</a></li>
+                                            <li><a href="#">Photo Frames</a></li>
+                                            <li><a href="#">Curtains</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mega_promo">
+                                    <picture>
+                                        <source srcset="images/menuimg.webp 1x, images/menuimg@2x.webp 2x, images/menuimg@3x.webp 3x" type="image/webp">
+                                        <img src="images/menuimg.jpg" srcset="images/menuimg@2x.jpg 2x, images/menuimg@3x.jpg 3x" alt="Bedroom Collections">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cmenu_item">
+                        <a href="javascript:void(0);" class="cmenu_link">Decor <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mega_menu">
+                            <div class="mega_menu_inner">
+                                <div class="mega_cols">
+                                    <div class="mega_col">
+                                        <h4>Wall Decor</h4>
+                                        <ul>
+                                            <li><a href="#">Wall Art</a></li>
+                                            <li><a href="#">Wall Mirrors</a></li>
+                                            <li><a href="#">Wall Clocks</a></li>
+                                            <li><a href="#">Wall Shelves</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Home Fragrance</h4>
+                                        <ul>
+                                            <li><a href="#">Candles</a></li>
+                                            <li><a href="#">Diffusers</a></li>
+                                            <li><a href="#">Incense</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Vases & Planters</h4>
+                                        <ul>
+                                            <li><a href="#">Ceramic Vases</a></li>
+                                            <li><a href="#">Glass Vases</a></li>
+                                            <li><a href="#">Planters</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Decorative Accents</h4>
+                                        <ul>
+                                            <li><a href="#">Photo Frames</a></li>
+                                            <li><a href="#">Showpieces</a></li>
+                                            <li><a href="#">Trays</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Festive Decor</h4>
+                                        <ul>
+                                            <li><a href="#">Diwali Decor</a></li>
+                                            <li><a href="#">Christmas Decor</a></li>
+                                            <li><a href="#">Party Decor</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mega_promo">
+                                    <picture>
+                                        <source srcset="images/menuimg.webp 1x, images/menuimg@2x.webp 2x, images/menuimg@3x.webp 3x" type="image/webp">
+                                        <img src="images/menuimg.jpg" srcset="images/menuimg@2x.jpg 2x, images/menuimg@3x.jpg 3x" alt="Decor Collections">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cmenu_item">
+                        <a href="javascript:void(0);" class="cmenu_link">Lighting <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mega_menu">
+                            <div class="mega_menu_inner">
+                                <div class="mega_cols">
+                                    <div class="mega_col">
+                                        <h4>Ceiling Lights</h4>
+                                        <ul>
+                                            <li><a href="#">Chandeliers</a></li>
+                                            <li><a href="#">Pendant Lights</a></li>
+                                            <li><a href="#">Flush Mounts</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Lamps</h4>
+                                        <ul>
+                                            <li><a href="#">Floor Lamps</a></li>
+                                            <li><a href="#">Table Lamps</a></li>
+                                            <li><a href="#">Study Lamps</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Wall Lights</h4>
+                                        <ul>
+                                            <li><a href="#">Wall Sconces</a></li>
+                                            <li><a href="#">Picture Lights</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Outdoor Lighting</h4>
+                                        <ul>
+                                            <li><a href="#">Garden Lights</a></li>
+                                            <li><a href="#">String Lights</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Smart Lighting</h4>
+                                        <ul>
+                                            <li><a href="#">Smart Bulbs</a></li>
+                                            <li><a href="#">LED Strips</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mega_promo">
+                                    <picture>
+                                        <source srcset="images/menuimg.webp 1x, images/menuimg@2x.webp 2x, images/menuimg@3x.webp 3x" type="image/webp">
+                                        <img src="images/menuimg.jpg" srcset="images/menuimg@2x.jpg 2x, images/menuimg@3x.jpg 3x" alt="Lighting Collections">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cmenu_item">
+                        <a href="javascript:void(0);" class="cmenu_link">New Arrivals <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mega_menu">
+                            <div class="mega_menu_inner">
+                                <div class="mega_cols">
+                                    <div class="mega_col">
+                                        <h4>Just Launched</h4>
+                                        <ul>
+                                            <li><a href="#">This Week</a></li>
+                                            <li><a href="#">This Month</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Trending Now</h4>
+                                        <ul>
+                                            <li><a href="#">Trending Sofas</a></li>
+                                            <li><a href="#">Trending Decor</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Limited Edition</h4>
+                                        <ul>
+                                            <li><a href="#">Designer Picks</a></li>
+                                            <li><a href="#">Artisan Crafted</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Seasonal Picks</h4>
+                                        <ul>
+                                            <li><a href="#">Summer Edit</a></li>
+                                            <li><a href="#">Winter Edit</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Best Sellers</h4>
+                                        <ul>
+                                            <li><a href="#">Top Rated</a></li>
+                                            <li><a href="#">Most Loved</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mega_promo">
+                                    <picture>
+                                        <source srcset="images/menuimg.webp 1x, images/menuimg@2x.webp 2x, images/menuimg@3x.webp 3x" type="image/webp">
+                                        <img src="images/menuimg.jpg" srcset="images/menuimg@2x.jpg 2x, images/menuimg@3x.jpg 3x" alt="New Arrivals">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cmenu_item">
+                        <a href="javascript:void(0);" class="cmenu_link">Collections <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mega_menu">
+                            <div class="mega_menu_inner">
+                                <div class="mega_cols">
+                                    <div class="mega_col">
+                                        <h4>Festive Collection</h4>
+                                        <ul>
+                                            <li><a href="#">Diwali Edit</a></li>
+                                            <li><a href="#">Christmas Edit</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Minimalist Collection</h4>
+                                        <ul>
+                                            <li><a href="#">Scandinavian</a></li>
+                                            <li><a href="#">Japandi</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Premium Collection</h4>
+                                        <ul>
+                                            <li><a href="#">Luxury Sofas</a></li>
+                                            <li><a href="#">Solid Wood</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_col">
+                                        <h4>Budget Collection</h4>
+                                        <ul>
+                                            <li><a href="#">Under 10K</a></li>
+                                            <li><a href="#">Under 20K</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mega_promo">
+                                    <picture>
+                                        <source srcset="images/menuimg.webp 1x, images/menuimg@2x.webp 2x, images/menuimg@3x.webp 3x" type="image/webp">
+                                        <img src="images/menuimg.jpg" srcset="images/menuimg@2x.jpg 2x, images/menuimg@3x.jpg 3x" alt="Curated Collections">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="cmenu_right">
+                    <a href="#">Find a store</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile_menu_overlay" id="mobileMenuOverlay"></div>
+        <div class="mobile_menu" id="mobileMenu">
+            <div class="mobile_menu_head">
+                <div class="mb_logo">
+                    <picture>
+                        <!-- WebP version -->
+                        <source srcset="
+                            images/logo.webp 1x,
+                            images/logo@2x.webp 2x,
+                            images/logo@3x.webp 3x
+                            " type="image/webp">
+                        <!-- PNG fallback -->
+                        <img src="images/logo.png" srcset="
+                            images/logo@2x.png 2x,
+                            images/logo@3x.png 3x
+                            " class="img-fluid" alt="logo">
+                    </picture>
+                </div>
+                <span class="mobile_menu_close" id="mobileMenuClose"><img src="images/close_icon.svg" alt="close"></span>
+            </div>
+            <ul class="mobile_cmenu">
+                <li class="mobile_cmenu_item">
+                    <div class="mobile_cmenu_link">Living Room <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="mobile_submenu">
+                        <div class="mobile_submenu_col">
+                            <h5>Living Storage</h5>
+                            <ul>
+                                <li><a href="#">TV Units</a></li>
+                                <li><a href="#">Bookshelves</a></li>
+                                <li><a href="#">Display Unit</a></li>
+                                <li><a href="#">Magazine Racks</a></li>
+                                <li><a href="#">Shoe Racks</a></li>
+                                <li><a href="#">Wall Shelves</a></li>
+                                <li><a href="#">Trunk & Blanket Box</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Sofas</h5>
+                            <ul>
+                                <li><a href="#" class="highlight">Fabric Sofas</a></li>
+                                <li><a href="#">Wooden Sofa</a></li>
+                                <li><a href="#">3 Seater Sofas</a></li>
+                                <li><a href="#">2 Seater Sofas</a></li>
+                                <li><a href="#">L Shaped Sofas</a></li>
+                                <li><a href="#">Leather Sofa</a></li>
+                                <li><a href="#">Sofa Cum Bed</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Seating & Chairs</h5>
+                            <ul>
+                                <li><a href="#">Lounge Chairs</a></li>
+                                <li><a href="#">Wing Chairs</a></li>
+                                <li><a href="#">Swing Chairs</a></li>
+                                <li><a href="#">Sofas</a></li>
+                                <li><a href="#">Shoe Chair</a></li>
+                                <li><a href="#">Gaming Chair</a></li>
+                                <li><a href="#">Office Seating</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Tables</h5>
+                            <ul>
+                                <li><a href="#">Coffee Tables</a></li>
+                                <li><a href="#">Laptop Tables</a></li>
+                                <li><a href="#">Side Tables</a></li>
+                                <li><a href="#">Console Table</a></li>
+                                <li><a href="#">Laptop Table</a></li>
+                                <li><a href="#">Nest of Tables</a></li>
+                                <li><a href="#">Laptop Table</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Decor</h5>
+                            <ul>
+                                <li><a href="#">Home Temples</a></li>
+                                <li><a href="#">Wall Art</a></li>
+                                <li><a href="#">Wall Mirrors</a></li>
+                                <li><a href="#">Wall Clocks</a></li>
+                                <li><a href="#">Photo Frames</a></li>
+                                <li><a href="#">Pots & Planters</a></li>
+                                <li><a href="#">Trunk & Blanket Box</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="mobile_cmenu_item">
+                    <div class="mobile_cmenu_link">Dinning Room <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="mobile_submenu">
+                        <div class="mobile_submenu_col">
+                            <h5>Dining Sets</h5>
+                            <ul>
+                                <li><a href="#">4 Seater Sets</a></li>
+                                <li><a href="#">6 Seater Sets</a></li>
+                                <li><a href="#">8 Seater Sets</a></li>
+                                <li><a href="#">Marble Sets</a></li>
+                                <li><a href="#">Glass Sets</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Dining Tables</h5>
+                            <ul>
+                                <li><a href="#">4 Seater Tables</a></li>
+                                <li><a href="#">6 Seater Tables</a></li>
+                                <li><a href="#">8 Seater Tables</a></li>
+                                <li><a href="#">Foldable Tables</a></li>
+                                <li><a href="#">Console Tables</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Dining Chairs</h5>
+                            <ul>
+                                <li><a href="#">Upholstered Chairs</a></li>
+                                <li><a href="#">Wooden Chairs</a></li>
+                                <li><a href="#">Cushioned Chairs</a></li>
+                                <li><a href="#">Bar Stools</a></li>
+                                <li><a href="#">Bench</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Storage</h5>
+                            <ul>
+                                <li><a href="#">Crockery Units</a></li>
+                                <li><a href="#">Bar Cabinets</a></li>
+                                <li><a href="#">Sideboards</a></li>
+                                <li><a href="#">Kitchen Racks</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Decor</h5>
+                            <ul>
+                                <li><a href="#">Wall Art</a></li>
+                                <li><a href="#">Table Runners</a></li>
+                                <li><a href="#">Centerpieces</a></li>
+                                <li><a href="#">Lighting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="mobile_cmenu_item">
+                    <div class="mobile_cmenu_link">Bedroom <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="mobile_submenu">
+                        <div class="mobile_submenu_col">
+                            <h5>Beds</h5>
+                            <ul>
+                                <li><a href="#">King Size Beds</a></li>
+                                <li><a href="#">Queen Size Beds</a></li>
+                                <li><a href="#">Bunk Beds</a></li>
+                                <li><a href="#">Sofa Cum Beds</a></li>
+                                <li><a href="#">Storage Beds</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Wardrobes</h5>
+                            <ul>
+                                <li><a href="#">2 Door Wardrobes</a></li>
+                                <li><a href="#">3 Door Wardrobes</a></li>
+                                <li><a href="#">Sliding Wardrobes</a></li>
+                                <li><a href="#">Walk-in Wardrobes</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Mattresses</h5>
+                            <ul>
+                                <li><a href="#">Memory Foam</a></li>
+                                <li><a href="#">Spring Mattress</a></li>
+                                <li><a href="#">Orthopedic</a></li>
+                                <li><a href="#">Kids Mattress</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Bedside & More</h5>
+                            <ul>
+                                <li><a href="#">Bedside Tables</a></li>
+                                <li><a href="#">Dressing Tables</a></li>
+                                <li><a href="#">Chest of Drawers</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Decor</h5>
+                            <ul>
+                                <li><a href="#">Wall Art</a></li>
+                                <li><a href="#">Mirrors</a></li>
+                                <li><a href="#">Photo Frames</a></li>
+                                <li><a href="#">Curtains</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="mobile_cmenu_item">
+                    <div class="mobile_cmenu_link">Decor <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="mobile_submenu">
+                        <div class="mobile_submenu_col">
+                            <h5>Wall Decor</h5>
+                            <ul>
+                                <li><a href="#">Wall Art</a></li>
+                                <li><a href="#">Wall Mirrors</a></li>
+                                <li><a href="#">Wall Clocks</a></li>
+                                <li><a href="#">Wall Shelves</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Home Fragrance</h5>
+                            <ul>
+                                <li><a href="#">Candles</a></li>
+                                <li><a href="#">Diffusers</a></li>
+                                <li><a href="#">Incense</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Vases & Planters</h5>
+                            <ul>
+                                <li><a href="#">Ceramic Vases</a></li>
+                                <li><a href="#">Glass Vases</a></li>
+                                <li><a href="#">Planters</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Decorative Accents</h5>
+                            <ul>
+                                <li><a href="#">Photo Frames</a></li>
+                                <li><a href="#">Showpieces</a></li>
+                                <li><a href="#">Trays</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Festive Decor</h5>
+                            <ul>
+                                <li><a href="#">Diwali Decor</a></li>
+                                <li><a href="#">Christmas Decor</a></li>
+                                <li><a href="#">Party Decor</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="mobile_cmenu_item">
+                    <div class="mobile_cmenu_link">Lighting <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="mobile_submenu">
+                        <div class="mobile_submenu_col">
+                            <h5>Ceiling Lights</h5>
+                            <ul>
+                                <li><a href="#">Chandeliers</a></li>
+                                <li><a href="#">Pendant Lights</a></li>
+                                <li><a href="#">Flush Mounts</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Lamps</h5>
+                            <ul>
+                                <li><a href="#">Floor Lamps</a></li>
+                                <li><a href="#">Table Lamps</a></li>
+                                <li><a href="#">Study Lamps</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Wall Lights</h5>
+                            <ul>
+                                <li><a href="#">Wall Sconces</a></li>
+                                <li><a href="#">Picture Lights</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Outdoor Lighting</h5>
+                            <ul>
+                                <li><a href="#">Garden Lights</a></li>
+                                <li><a href="#">String Lights</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Smart Lighting</h5>
+                            <ul>
+                                <li><a href="#">Smart Bulbs</a></li>
+                                <li><a href="#">LED Strips</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="mobile_cmenu_item">
+                    <div class="mobile_cmenu_link">New Arrivals <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="mobile_submenu">
+                        <div class="mobile_submenu_col">
+                            <h5>Just Launched</h5>
+                            <ul>
+                                <li><a href="#">This Week</a></li>
+                                <li><a href="#">This Month</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Trending Now</h5>
+                            <ul>
+                                <li><a href="#">Trending Sofas</a></li>
+                                <li><a href="#">Trending Decor</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Limited Edition</h5>
+                            <ul>
+                                <li><a href="#">Designer Picks</a></li>
+                                <li><a href="#">Artisan Crafted</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Seasonal Picks</h5>
+                            <ul>
+                                <li><a href="#">Summer Edit</a></li>
+                                <li><a href="#">Winter Edit</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Best Sellers</h5>
+                            <ul>
+                                <li><a href="#">Top Rated</a></li>
+                                <li><a href="#">Most Loved</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="mobile_cmenu_item">
+                    <div class="mobile_cmenu_link">Collections <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="mobile_submenu">
+                        <div class="mobile_submenu_col">
+                            <h5>Festive Collection</h5>
+                            <ul>
+                                <li><a href="#">Diwali Edit</a></li>
+                                <li><a href="#">Christmas Edit</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Minimalist Collection</h5>
+                            <ul>
+                                <li><a href="#">Scandinavian</a></li>
+                                <li><a href="#">Japandi</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Premium Collection</h5>
+                            <ul>
+                                <li><a href="#">Luxury Sofas</a></li>
+                                <li><a href="#">Solid Wood</a></li>
+                            </ul>
+                        </div>
+                        <div class="mobile_submenu_col">
+                            <h5>Budget Collection</h5>
+                            <ul>
+                                <li><a href="#">Under 10K</a></li>
+                                <li><a href="#">Under 20K</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="mobile_menu_footer">
+                <a href="#">Find a store</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+        
+        <!-- marquee Menu -->
+        <section class="marquee-container">
+            <div class="marquee-track">
+                <div class="marquee-content">
+                Dining Tables starting at <strong>$199</strong> / 
+                <strong>Limited Time Offer:</strong> Free throw pillows with sofa / 
+                Sofas <strong>15% off</strong> - Use code <strong>COZY15</strong> / 
+                Dining Tables starting at <strong>$199</strong> / 
+                Free Shipping on orders over <strong>$200</strong> / 
+                <strong>Limited Time Offer:</strong> Free throw pillows with sofa purchase &nbsp;/&nbsp;
+                </div>
+                <!-- Duplicate content for a seamless infinite loop -->
+                <div class="marquee-content" aria-hidden="true">
+                Dining Tables starting at <strong>$199</strong> / 
+                <strong>Limited Time Offer:</strong> Free throw pillows with sofa / 
+                Sofas <strong>15% off</strong> - Use code <strong>COZY15</strong> / 
+                Dining Tables starting at <strong>$199</strong> / 
+                Free Shipping on orders over <strong>$200</strong> / 
+                <strong>Limited Time Offer:</strong> Free throw pillows with sofa purchase &nbsp;/&nbsp;
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Slider -->
+        <section class="banner_sec">
+            <div class="banner_slider" id="bannerSlider">
+                <div class="banner_slide">
+                    <picture>
+                        <source srcset="
+                            images/bnrimg1.webp 1x,
+                            images/bnrimg1@2x.webp 2x,
+                            images/bnrimg1@3x.webp 3x
+                            " type="image/webp">
+                        <img src="images/bnrimg1.jpg" srcset="
+                            images/bnrimg1.jpg 1x,
+                            images/bnrimg1@2x.jpg 2x,
+                            images/bnrimg1@3x.jpg 3x
+                            " alt="Olive Luxe living room sofa">
+                    </picture>
+                    <div class="banner_overlay">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="heading_div">
+                                        <h1>L</h1>
+                                        <h1>I</h1>
+                                        <h1>V</h1>
+                                        <h1>I</h1>
+                                        <h1>N</h1>
+                                        <h1>G</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-end banner_bottom_row">
+                                <div class="col-lg-9 col-md-8 col-12">
+                                    <div class="banner_caption">
+                                        <p>Comfort Meets Style<br>in Every Corner of Your Home</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-12">
+                                    <div class="banner_action">
+                                        <a href="javascript:void(0);">Explore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner_slide">
+                    <picture>
+                        <source srcset="
+                            images/bnrimg2.webp 1x,
+                            images/bnrimg2@2x.webp 2x,
+                            images/bnrimg2@3x.webp 3x
+                            " type="image/webp">
+                        <img src="images/bnrimg2.jpg" srcset="
+                            images/bnrimg2.jpg 1x,
+                            images/bnrimg2@2x.jpg 2x,
+                            images/bnrimg2@3x.jpg 3x
+                            " alt="Olive Luxe premium sofa collection">
+                    </picture>
+                    <div class="banner_overlay">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                   <div class="heading_div">
+                                        <h1>O</h1>
+                                        <h1>L</h1>
+                                        <h1>I</h1>
+                                        <h1>V</h1>
+                                        <h1>E</h1>
+                                        <h1>L</h1>
+                                        <h1>U</h1>
+                                        <h1>X</h1>
+                                        <h1>E</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-end banner_bottom_row">
+                                <div class="col-lg-9 col-md-8 col-12">
+                                    <div class="banner_caption">
+                                        <p>Limited-Time Deal:<br>Up to 40% Off on Sofas</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-12">
+                                    <div class="banner_action">
+                                        <a href="javascript:void(0);">Explore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner_slide">
+                    <picture>
+                        <source srcset="
+                            images/bnrimg3.webp 1x,
+                            images/bnrimg3@2x.webp 2x,
+                            images/bnrimg3@3x.webp 3x
+                            " type="image/webp">
+                        <img src="images/bnrimg3.jpg" srcset="
+                            images/bnrimg3.jpg 1x,
+                            images/bnrimg3@2x.jpg 2x,
+                            images/bnrimg3@3x.jpg 3x
+                            " alt="Olive Luxe premium sofa collection">
+                    </picture>
+                    <div class="banner_overlay">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="heading_div">
+                                        <h1>E</h1>
+                                        <h1>X</h1>
+                                        <h1>C</h1>
+                                        <h1>L</h1>
+                                        <h1>U</h1>
+                                        <h1>S</h1>
+                                        <h1>I</h1>
+                                        <h1>V</h1>
+                                        <h1>E</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-end banner_bottom_row">
+                                <div class="col-lg-9 col-md-8 col-12">
+                                    <div class="banner_caption">
+                                        <p>Exclusive Deal: <br>Up to 30% Off on Chairs – Limited Time Only!</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-12">
+                                    <div class="banner_action">
+                                        <a href="javascript:void(0);">Explore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_controls">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-10 col-md-10 col-8">
+                            <div class="banner_progress" aria-hidden="true">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="banner_nav">
+                                <div class="banner_dots"></div>
+                                <button type="button" class="banner_next" aria-label="Next slide">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Display Product Section -->
+         <section class="display_prod_sec">
+            <div class="row g-0">
+                <div class="col-md-3">
+                    <div class="prod_img">
+                        <picture>
+                            <source srcset="
+                                images/prod_img1.webp 1x,
+                                images/prod_img1@2x.webp 2x,
+                                images/prod_img1@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img1.png" srcset="
+                                images/prod_img1@2x.png 2x,
+                                images/prod_img1@3x.png 3x
+                                " alt="Product">
+                        </picture>
+                        <div class="prod_hover_box">
+                            <span>New Arrivals</span>
+                            <h3>Chair</h3>
+                            <em></em>
+                            <p>$750.00</p>
+                            <a href="#">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="prod_img">
+                        <picture>
+                            <source srcset="
+                                images/prod_img2.webp 1x,
+                                images/prod_img2@2x.webp 2x,
+                                images/prod_img2@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img2.png" srcset="
+                                images/prod_img2@2x.png 2x,
+                                images/prod_img2@3x.png 3x
+                                " alt="Product">
+                        </picture>
+                        <div class="prod_hover_box">
+                            <span>New Arrivals</span>
+                            <h3>Coffee Table</h3>
+                            <em></em>
+                            <p>$750.00</p>
+                            <a href="#">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="prod_img">
+                        <picture>
+                            <source srcset="
+                                images/prod_img3.webp 1x,
+                                images/prod_img3@2x.webp 2x,
+                                images/prod_img3@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img3.png" srcset="
+                                images/prod_img3@2x.png 2x,
+                                images/prod_img3@3x.png 3x
+                                " alt="Product">
+                        </picture>
+                        <div class="prod_hover_box">
+                            <span>New Arrivals</span>
+                            <h3>Chair</h3>
+                            <em></em>
+                            <p>$750.00</p>
+                            <a href="#">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="mid_prod_box">
+                        <p>Blending sleek, contemporary design with artistic forms, our collection enhances every space with sophistication and comfort.</p>
+                        <picture>
+                            <source srcset="
+                                images/mid_prod.webp 1x,
+                                images/mid_prod@2x.webp 2x,
+                                images/mid_prod@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/mid_prod.png" srcset="
+                                images/mid_prod@2x.png 2x,
+                                images/mid_prod@3x.png 3x
+                                " alt="Product" class="mid_prod">
+                        </picture>
+                        <a href="#" class="outline_btn">View All Collections</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All Logo Section -->
+        <section class="all_logo">
+        <div class="container-fuild">
+                <picture>
+                <source srcset="
+                    images/all_logo.webp 1x,
+                    images/all_logo@2x.webp 2x,
+                    images/all_logo@3x.webp 3x
+                    " type="image/webp">
+                <img src="images/all_logo.jpg" srcset="
+                    images/all_logo@2x.jpg 2x,
+                    images/all_logo@3x.jpg 3x
+                    " alt="Product">
+            </picture>
+        </div>
+        </section>
+
+        <!-- Product Slider Section -->
+        <!-- Product Slider Section -->
+        <section class="product_slider_section">
+            <h2 class="product_slider_title">Contemporary</h2>
+
+            <div class="product_slider">
+                <!-- Slide 1: Blue Sofa (Initial Center) -->
+                <div class="prod_col">
+                    <div class="prod_img_wrap">
+                        <picture>
+                            <source srcset="
+                                images/product_slider_img1.webp 1x,
+                                images/product_slider_img1@2x.webp 2x,
+                                images/product_slider_img1@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/product_slider_img1.jpg" srcset="
+                                images/product_slider_img1@2x.jpg 2x,
+                                images/product_slider_img1@3x.jpg 3x
+                                " alt="Blue contemporary sofa">
+                        </picture>
+                        <button type="button" class="cart_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Gray Lounge Chair -->
+                <div class="prod_col">
+                    <div class="prod_img_wrap">
+                        <picture>
+                            <source srcset="
+                                images/product_slider_img4.webp 1x,
+                                images/product_slider_img4@2x.webp 2x,
+                                images/product_slider_img4@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/product_slider_img4.jpg" srcset="
+                                images/product_slider_img4@2x.jpg 2x,
+                                images/product_slider_img4@3x.jpg 3x
+                                " alt="Gray lounge chair">
+                        </picture>
+                        <button type="button" class="cart_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Brown Leather Armchair -->
+                <div class="prod_col">
+                    <div class="prod_img_wrap">
+                        <picture>
+                            <source srcset="
+                                images/product_slider_img5.webp 1x,
+                                images/product_slider_img5@2x.webp 2x,
+                                images/product_slider_img5@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/product_slider_img5.jpg" srcset="
+                                images/product_slider_img5@2x.jpg 2x,
+                                images/product_slider_img5@3x.jpg 3x
+                                " alt="Brown leather armchair">
+                        </picture>
+                        <button type="button" class="cart_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slide 4: Contemporary Living Setting -->
+                <div class="prod_col">
+                    <div class="prod_img_wrap">
+                        <picture>
+                            <source srcset="
+                                images/product_slider_img3.webp 1x,
+                                images/product_slider_img3@2x.webp 2x,
+                                images/product_slider_img3@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/product_slider_img3.jpg" srcset="
+                                images/product_slider_img3@2x.jpg 2x,
+                                images/product_slider_img3@3x.jpg 3x
+                                " alt="Contemporary living setting with sofa">
+                        </picture>
+                        <button type="button" class="cart_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slide 5: Accent Table with Description -->
+                <div class="prod_col">
+                    <div class="prod_img_wrap">
+                        <picture>
+                            <source srcset="
+                                images/product_slider_img2.webp 1x,
+                                images/product_slider_img2@2x.webp 2x,
+                                images/product_slider_img2@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/product_slider_img2.jpg" srcset="
+                                images/product_slider_img2@2x.jpg 2x,
+                                images/product_slider_img2@3x.jpg 3x
+                                " alt="Wood and metal accent table">
+                        </picture>
+                        <button type="button" class="cart_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                    </div>
+                    <div class="content">
+                        <h5>Contemporary Furniture and Accessories for Stylish Spaces</h5>
+                        <p>Discover a curated selection of contemporary furniture and accessories designed to bring sophistication and style to any space.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Controls: Dynamic Counter and Navigation Arrows -->
+            <div class="slider_controls">
+                <span class="slider_counter">1/5</span>
+                <div class="slider_arrows">
+                    <button type="button" class="slider_prev" aria-label="Previous slide">
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="#1C1B1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button type="button" class="slider_next" aria-label="Next slide">
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L7 7L1 13" stroke="#1C1B1F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sale Section -->
+        <section class="sale_sec">
+            <div class="image">
+                <picture>
+                    <source srcset="
+                        images/sale_img.webp 1x,
+                        images/sale_img@2x.webp 2x,
+                        images/sale_img@3x.webp 3x
+                        " type="image/webp">
+                    <img src="images/sale_img.jpg" srcset="
+                        images/sale_img.jpg 1x,
+                        images/sale_img@2x.jpg 2x,
+                        images/sale_img@3x.jpg 3x
+                        " alt="Living room sofa sale, up to 50% off">
+                </picture>
+                <div class="sale_overlay">
+                    <div class="container-fluid">
+                        <div class="sale_content">
+                            <p class="sale_tagline">Living Made Beautiful<br>with Functional Elegance</p>
+                            <h2 class="sale_title">SALE</h2>
+                            <p class="sale_discount">Up to 50% Off</p>
+                            <a href="#" class="outline_btn">View Collections</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collection Section -->
+        <section class="collection_sec">
+            <div class="collection_head">
+                <h2 class="collection_title">Collections</h2>
+                <div class="d-flex justify-content-end align-items-center tab_box">
+                    <ul class="collection_tabs">
+                        <li><button type="button" class="tab_btn active" data-filter="all">All</button></li>
+                        <li><button type="button" class="tab_btn" data-filter="bed">Bed</button></li>
+                        <li><button type="button" class="tab_btn" data-filter="sofa">Sofa</button></li>
+                        <li><button type="button" class="tab_btn" data-filter="table">Table</button></li>
+                        <li><button type="button" class="tab_btn" data-filter="wardrobe">Wardrobe</button></li>
+                        <li><button type="button" class="tab_btn" data-filter="lighting">Lighting</button></li>
+                    </ul>
+                    <a href="#" class="outline_btn collection_view_all">View All Collections</a>
+                </div>
+            </div>
+
+            <div class="collection_slider">
+                <!-- Card 1: Bed -->
+                <div class="collection_card" data-category="bed">
+                    <div class="collection_img_wrap">
+                        <span class="discount_tag">20% OFF</span>
+                        <button type="button" class="wishlist_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                        <picture class="base_img">
+                            <source srcset="
+                                images/prod_img4.webp 1x,
+                                images/prod_img4@2x.webp 2x,
+                                images/prod_img4@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img4.png" srcset="
+                                images/prod_img4@2x.png 2x,
+                                images/prod_img4@3x.png 3x
+                                " alt="Premium Bed">
+                        </picture>
+                        <picture class="hover_img">
+                            <source srcset="
+                                images/prod_img7.webp 1x,
+                                images/prod_img7@2x.webp 2x,
+                                images/prod_img7@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img7.png" srcset="
+                                images/prod_img7@2x.png 2x,
+                                images/prod_img7@3x.png 3x
+                                " alt="">
+                        </picture>
+                    </div>
+                    <div class="collection_swatches">
+                        <span class="swatch" style="background-color:#5b4636"></span>
+                        <span class="swatch" style="background-color:#8a8f98"></span>
+                        <span class="swatch" style="background-color:#c9a86a"></span>
+                        <span class="swatch" style="background-color:#2f3b52"></span>
+                    </div>
+                    <p class="collection_cat">Bed</p>
+                    <h3 class="collection_name">Premium Bed</h3>
+                    <p class="collection_price"><span class="price_new">$1299.00</span> <span class="price_old">$1599.00</span></p>
+                </div>
+
+                <!-- Card 2: Chair -->
+                <div class="collection_card" data-category="chair">
+                    <div class="collection_img_wrap">
+                        <button type="button" class="wishlist_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                        <picture class="base_img">
+                            <source srcset="
+                                images/prod_img5.webp 1x,
+                                images/prod_img5@2x.webp 2x,
+                                images/prod_img5@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img5.png" srcset="
+                                images/prod_img5@2x.png 2x,
+                                images/prod_img5@3x.png 3x
+                                " alt="Wooden Chair">
+                        </picture>
+                        <picture class="hover_img">
+                            <source srcset="
+                                images/prod_img7.webp 1x,
+                                images/prod_img7@2x.webp 2x,
+                                images/prod_img7@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img7.png" srcset="
+                                images/prod_img7@2x.png 2x,
+                                images/prod_img7@3x.png 3x
+                                " alt="">
+                        </picture>
+                    </div>
+                    <div class="collection_swatches">
+                        <span class="swatch" style="background-color:#6b7d5a"></span>
+                        <span class="swatch" style="background-color:#b98d5e"></span>
+                        <span class="swatch" style="background-color:#8a8f98"></span>
+                        <span class="swatch" style="background-color:#d8c9a3"></span>
+                    </div>
+                    <p class="collection_cat">Chair</p>
+                    <h3 class="collection_name">Wooden Chair</h3>
+                    <p class="collection_price"><span class="price_new">$750.00</span></p>
+                </div>
+
+                <!-- Card 3: Sofa (gray) -->
+                <div class="collection_card" data-category="sofa">
+                    <div class="collection_img_wrap">
+                        <span class="discount_tag">15% OFF</span>
+                        <button type="button" class="wishlist_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                        <picture class="base_img">
+                            <source srcset="
+                                images/prod_img6.webp 1x,
+                                images/prod_img6@2x.webp 2x,
+                                images/prod_img6@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img6.png" srcset="
+                                images/prod_img6@2x.png 2x,
+                                images/prod_img6@3x.png 3x
+                                " alt="Premium Sofa">
+                        </picture>
+                        <picture class="hover_img">
+                            <source srcset="
+                                images/prod_img7.webp 1x,
+                                images/prod_img7@2x.webp 2x,
+                                images/prod_img7@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img7.png" srcset="
+                                images/prod_img7@2x.png 2x,
+                                images/prod_img7@3x.png 3x
+                                " alt="">
+                        </picture>
+                    </div>
+                    <div class="collection_swatches">
+                        <span class="swatch" style="background-color:#8a8f98"></span>
+                        <span class="swatch" style="background-color:#b98d5e"></span>
+                        <span class="swatch" style="background-color:#d8c9a3"></span>
+                        <span class="swatch" style="background-color:#c98a90"></span>
+                    </div>
+                    <p class="collection_cat">Sofa</p>
+                    <h3 class="collection_name">Premium Sofa</h3>
+                    <p class="collection_price"><span class="price_new">$1029.00</span> <span class="price_old">$1599.00</span></p>
+                </div>
+
+                <!-- Card 4: Sofa (blue) -->
+                <div class="collection_card" data-category="sofa">
+                    <div class="collection_img_wrap">
+                        <button type="button" class="wishlist_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                        <picture class="base_img">
+                            <source srcset="
+                                images/prod_img7.webp 1x,
+                                images/prod_img7@2x.webp 2x,
+                                images/prod_img7@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img7.png" srcset="
+                                images/prod_img7@2x.png 2x,
+                                images/prod_img7@3x.png 3x
+                                " alt="Premium Sofa">
+                        </picture>
+                        <picture class="hover_img">
+                            <source srcset="
+                                images/prod_img7.webp 1x,
+                                images/prod_img7@2x.webp 2x,
+                                images/prod_img7@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img7.png" srcset="
+                                images/prod_img7@2x.png 2x,
+                                images/prod_img7@3x.png 3x
+                                " alt="">
+                        </picture>
+                    </div>
+                    <div class="collection_swatches">
+                        <span class="swatch" style="background-color:#2f3b52"></span>
+                        <span class="swatch" style="background-color:#6b7d5a"></span>
+                        <span class="swatch" style="background-color:#8a8f98"></span>
+                        <span class="swatch" style="background-color:#d8c9a3"></span>
+                    </div>
+                    <p class="collection_cat">Sofa</p>
+                    <h3 class="collection_name">Premium Sofa</h3>
+                    <p class="collection_price"><span class="price_new">$1029.00</span> <span class="price_old">$1599.00</span></p>
+                </div>
+
+                <!-- Card 5: Sofa (light gray) -->
+                <div class="collection_card" data-category="sofa">
+                    <div class="collection_img_wrap">
+                        <button type="button" class="wishlist_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                        <picture class="base_img">
+                            <source srcset="
+                                images/prod_img8.webp 1x,
+                                images/prod_img8@2x.webp 2x,
+                                images/prod_img8@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img8.png" srcset="
+                                images/prod_img8@2x.png 2x,
+                                images/prod_img8@3x.png 3x
+                                " alt="Premium Sofa">
+                        </picture>
+                        <picture class="hover_img">
+                            <source srcset="
+                                images/prod_img7.webp 1x,
+                                images/prod_img7@2x.webp 2x,
+                                images/prod_img7@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img7.png" srcset="
+                                images/prod_img7@2x.png 2x,
+                                images/prod_img7@3x.png 3x
+                                " alt="">
+                        </picture>
+                    </div>
+                    <div class="collection_swatches">
+                        <span class="swatch" style="background-color:#b98d5e"></span>
+                        <span class="swatch" style="background-color:#8a8f98"></span>
+                        <span class="swatch" style="background-color:#2f3b52"></span>
+                        <span class="swatch" style="background-color:#c98a90"></span>
+                    </div>
+                    <p class="collection_cat">Sofa</p>
+                    <h3 class="collection_name">Premium Sofa</h3>
+                    <p class="collection_price"><span class="price_new">$1029.00</span> <span class="price_old">$1599.00</span></p>
+                </div>
+
+                <!-- Card 6: Sofa (classic) -->
+                <div class="collection_card" data-category="sofa">
+                    <div class="collection_img_wrap">
+                        <span class="discount_tag">10% OFF</span>
+                        <button type="button" class="wishlist_btn" aria-label="Add to cart">
+                            <img src="images/cart_icon.svg" alt="Cart">
+                        </button>
+                        <picture class="base_img">
+                            <source srcset="
+                                images/prod_img9.webp 1x,
+                                images/prod_img9@2x.webp 2x,
+                                images/prod_img9@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img9.png" srcset="
+                                images/prod_img9@2x.png 2x,
+                                images/prod_img9@3x.png 3x
+                                " alt="Classic Sofa">
+                        </picture>
+                        <picture class="hover_img">
+                            <source srcset="
+                                images/prod_img7.webp 1x,
+                                images/prod_img7@2x.webp 2x,
+                                images/prod_img7@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/prod_img7.png" srcset="
+                                images/prod_img7@2x.png 2x,
+                                images/prod_img7@3x.png 3x
+                                " alt="">
+                        </picture>
+                    </div>
+                    <div class="collection_swatches">
+                        <span class="swatch" style="background-color:#d8c9a3"></span>
+                        <span class="swatch" style="background-color:#6b7d5a"></span>
+                        <span class="swatch" style="background-color:#8a8f98"></span>
+                        <span class="swatch" style="background-color:#b98d5e"></span>
+                    </div>
+                    <p class="collection_cat">Sofa</p>
+                    <h3 class="collection_name">Classic Sofa</h3>
+                    <p class="collection_price"><span class="price_new">$899.00</span> <span class="price_old">$1199.00</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mid Banner Section -->
+         <section class="mid_bnr">
+            <div class="row g-0 align-items-start justify-content-between">
+                <div class="col-md-5">
+                    <h4>Book From this Collections</h4>
+                </div>
+                <div class="col-md-6">
+                    <p>Your Living Room, Reimagined with <br class="d-none d-lg-block">Sophistication</p>
+                </div>
+                <div class="col-md-12">
+                    <div class="image">
+                        <picture>
+                            <source srcset="
+                                images/mid_bnr.webp 1x,
+                                images/mid_bnr@2x.webp 2x,
+                                images/mid_bnr@3x.webp 3x
+                                " type="image/webp">
+                            <img src="images/mid_bnr.jpg" srcset="
+                                images/mid_bnr@2x.jpg 2x,
+                                images/mid_bnr@3x.jpg 3x
+                                " alt="Premium Bed">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Newsletter Section -->
+        <section class="newsletter_sec">
+            <div class="newsletter_media">
+                <div class="newsletter_pic">
+                    <picture>
+                        <source srcset="
+                            images/new_letter_img.webp 1x,
+                            images/new_letter_img@2x.webp 2x,
+                            images/new_letter_img@3x.webp 3x
+                            " type="image/webp">
+                        <img src="images/new_letter_img.jpg" srcset="
+                            images/new_letter_img@2x.jpg 2x,
+                            images/new_letter_img@3x.jpg 3x
+                            " alt="Woman relaxing on a beige sofa">
+                    </picture>
+                </div>
+            </div>
+            <div class="newsletter_content">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                    </div>
+                    <div class="col-md-4">
+                        <p class="newsletter_text">Subscribe now and save up to 15% on selected orders! Find furniture that perfectly suits your style.</p>
+                    </div>
+                    <div class="col-md-9">
+                        <form class="newsletter_form">
+                            <input type="email" placeholder="Enter your email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Disclaimer Section -->
+         <section class="disclaimer_sec">
+            <h6>Disclaimer</h6>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+         </section>
+
+         <!-- Footer Section -->
+        <footer class="site_footer">
+            <div class="footer_top">
+                <div class="ft_logo">
+                    <picture>
+                        <source srcset="
+                            images/ft_logo.webp 1x,
+                            images/ft_logo@2x.webp 2x,
+                            images/ft_logo@3x.webp 3x
+                            " type="image/webp">
+                        <img src="images/ft_logo.png" srcset="
+                            images/ft_logo@2x.png 2x,
+                            images/ft_logo@3x.png 3x
+                            " alt="Living">
+                    </picture>
+                </div>
+                <ul class="footer_nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_mid">
+                <div class="footer_payment">
+                    <span class="footer_label">We Accept</span>
+                    <ul class="payment_list">
+                        <li><img src="images/visa.svg" alt="Visa"></li>
+                        <li><img src="images/rupay.svg" alt="RuPay"></li>
+                        <li><img src="images/maestro.svg" alt="Maestro"></li>
+                        <li><img src="images/diners_club.svg" alt="Diners Club"></li>
+                        <li><img src="images/master_card.svg" alt="Mastercard"></li>
+                        <li><img src="images/american_express.svg" alt="American Express"></li>
+                    </ul>
+                </div>
+                <div class="footer_social">
+                    <span class="footer_label">Follow us</span>
+                    <ul class="social_list">
+                        <li><a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#" aria-label="YouTube"><img src="images/youtube_plus.svg" alt="youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <div class="footer_links">
+                    <a href="#">Terms Of Use</a>
+                    <span class="divider">|</span>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="footer_copy">
+                    <span>&copy; Copyright Sundew eCommerce</span>
+                    <span>Built by <a href="#">Sundew</a></span>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Search Box -->
+        <div class="search_overlay" id="searchOverlay"></div>
+        <div class="search_box" id="searchBox">
+            <div class="search_box_inner">
+                <div class="search_input_wrap">
+                    <img src="images/search_box_icon.svg" alt="search" class="search_icon">
+                    <input type="text" id="searchInput" placeholder="Search for products" autocomplete="off">
+                    <span class="search_close" id="searchCloseBtn"><img src="images/close_icon.svg" alt="close" class="close_icon"></span>
+                </div>
+                <ul class="search_suggestions" id="searchSuggestions"></ul>
+                <div class="search_results" id="searchResults"></div>
+            </div>
+        </div>
+
+        <!-- Signup Modal -->
+        <div class="modal fade auth_modal" id="signupModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="auth_row">
+                            <div class="auth_img">
+                                <picture>
+                                    <source srcset="
+                                        images/login_modal_img.webp 1x,
+                                        images/login_modal_img@2x.webp 2x,
+                                        images/login_modal_img@3x.webp 3x
+                                        " type="image/webp">
+                                    <img src="images/login_modal_img.jpg" srcset="
+                                        images/login_modal_img@2x.jpg 2x,
+                                        images/login_modal_img@3x.jpg 3x
+                                        " alt="Living Luxury">
+                                </picture>
+                                <div class="auth_img_caption">
+                                    <h2>LUXURY</h2>
+                                    <p>Discover 30k+ varites</p>
+                                </div>
+                            </div>
+                            <div class="auth_form">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h3>Looks like you're new here!</h3>
+                                <p class="auth_sub">Sign up in seconds &amp; start exploring.</p>
+                                <form>
+                                    <div class="form_grp">
+                                        <input type="text" class="form-control" placeholder="Name*">
+                                    </div>
+                                    <div class="form_grp">
+                                        <input type="email" class="form-control" placeholder="Email Address*">
+                                    </div>
+                                    <div class="form_grp">
+                                        <input type="text" class="form-control" placeholder="Phone">
+                                    </div>
+                                    <div class="form_grp">
+                                        <input type="text" class="form-control" placeholder="Pincode">
+                                    </div>
+                                    <div class="form_grp password_grp">
+                                        <input type="password" class="form-control password_input" placeholder="Password*">
+                                        <span class="toggle_password"><i class="fa-solid fa-eye"></i></span>
+                                    </div>
+                                    <div class="form_check_grp">
+                                        <input type="checkbox" id="signupTerms">
+                                        <label for="signupTerms">By continuing, you agree to Living's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</label>
+                                    </div>
+                                    <button type="submit" class="btn_black">Create Account</button>
+                                    <p class="auth_switch">Already have an account? <a href="javascript:void(0);" class="switch_modal" data-bs-target="#loginModal">Sign In</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Login Modal -->
+        <div class="modal fade auth_modal" id="loginModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="auth_row">
+                            <div class="auth_img">
+                                <picture>
+                                    <source srcset="
+                                        images/login_modal_img.webp 1x,
+                                        images/login_modal_img@2x.webp 2x,
+                                        images/login_modal_img@3x.webp 3x
+                                        " type="image/webp">
+                                    <img src="images/login_modal_img.jpg" srcset="
+                                        images/login_modal_img@2x.jpg 2x,
+                                        images/login_modal_img@3x.jpg 3x
+                                        " alt="Living Luxury">
+                                </picture>
+                                <div class="auth_img_caption">
+                                    <h2>LUXURY</h2>
+                                    <p>Discover 30k+ varites</p>
+                                </div>
+                            </div>
+                            <div class="auth_form">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h3>Welcome Back!</h3>
+                                <p class="auth_sub">Please Log In Track your order, create Wishlist &amp; more</p>
+                                <form>
+                                    <div class="form_grp">
+                                        <input type="email" class="form-control" placeholder="Email Address">
+                                    </div>
+                                    <div class="form_grp password_grp">
+                                        <input type="password" class="form-control password_input" placeholder="Password">
+                                        <span class="toggle_password"><i class="fa-solid fa-eye"></i></span>
+                                    </div>
+                                    <div class="form_row_between">
+                                        <div class="form_check_grp remember_grp">
+                                            <input type="checkbox" id="rememberMe">
+                                            <label for="rememberMe">Remember me</label>
+                                        </div>
+                                        <a href="#" class="forgot_link">Forgot password?</a>
+                                    </div>
+                                    <button type="submit" class="btn_black">Sign In</button>
+                                    <button type="button" class="btn_google"><img src="images/google_icon.svg" alt="google"> Sign in with Google</button>
+                                    <p class="auth_switch">Don't have an account? <a href="javascript:void(0);" class="switch_modal" data-bs-target="#signupModal">Sign up</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- JS Files-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- Slick JS -->
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+   
+    </body>
+    </html>
